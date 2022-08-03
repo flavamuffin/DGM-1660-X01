@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Block Scene.ma
-//Last modified: Tue, Aug 02, 2022 02:53:56 PM
+//Last modified: Tue, Aug 02, 2022 02:58:44 PM
 //Codeset: 1252
 requires maya "2022";
 requires "mtoa" "5.0.0.1";
@@ -10,23 +10,23 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202110272215-ad32f8f1e6";
 fileInfo "osv" "Windows 10 Enterprise v2009 (Build: 22000)";
-fileInfo "UUID" "9ECADDC8-446D-7E51-F06C-F8A25F7FBA5D";
+fileInfo "UUID" "8ABE4406-49C6-0BD7-B7F7-CCA8C72D924F";
 createNode transform -s -n "persp";
 	rename -uid "DCC66ABB-43D1-1672-2149-D09B2ED3E5C9";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -47.907125861477795 7.8462067642431599 5.1610231622510261 ;
-	setAttr ".r" -type "double3" 0 -89.999999999999986 0 ;
-	setAttr ".rp" -type "double3" 8.8817841970012523e-16 0 7.1054273576010019e-15 ;
-	setAttr ".rpt" -type "double3" -7.1915558853082431e-15 2.7760795118354238e-16 -4.927632900454717e-15 ;
+	setAttr ".t" -type "double3" 35.529607217387593 38.742094842520196 41.562491919084245 ;
+	setAttr ".r" -type "double3" -35.264389682754704 44.999999999999979 8.9959671327898885e-15 ;
+	setAttr ".rp" -type "double3" 0 -1.7763568394002505e-15 -7.1054273576010019e-15 ;
+	setAttr ".rpt" -type "double3" 2.7357395294213309e-15 -4.0434283926412631e-15 7.4764405957446164e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C44CBB9E-4D8C-4F3E-12C5-97BFA30EC010";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 47.907125861477802;
+	setAttr ".coi" 59.36717537566161;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 7.1054273576010019e-15 7.8462067642431599 5.1610231622510163 ;
+	setAttr ".tp" -type "double3" 2.8421709430404007e-14 7.8462067642431279 5.1610231622510305 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "8DA50C56-4A12-1BF6-9840-68808FEF2463";
